@@ -1,11 +1,6 @@
 # teiko-immune-cell-analysis
 An end-to-end data project that loads raw immune cell count data, stores it in a SQLite database, performs clinical trial response analysis, and presents the results in an interactive dashboard.
 
-## Dashboard
-
-When running locally or in Codespaces, the app is available at http://localhost:8501
-
-
 ## How to Run (GitHub Codespaces)
 
 1. **Open in Codespaces** — click the green **Code** button on GitHub → **Codespaces** → **Create codespace on main**.
@@ -24,7 +19,8 @@ When running locally or in Codespaces, the app is available at http://localhost:
    ```bash
    make dashboard
    ```
-   Codespaces will pop up a prompt to open the forwarded port — click **Open in Browser**. The dashboard runs on `http://localhost:8501`.
+   Codespaces will pop up a prompt to open the forwarded port — click **Open in Browser**. The dashboard runs on http://localhost:8501.
+
 
 ### Requirements
 - Python 3.9+
